@@ -1,0 +1,13 @@
+{
+  "name": "careerlog",
+  "private": true,
+  "version": "1.0.0",
+  "description": "CareerLog - Internship & Job Application Tracker",
+  "scripts": {
+    "start": "npm --prefix server start",
+    "dev": "npm --prefix client run dev",
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed"
+  }
+}
